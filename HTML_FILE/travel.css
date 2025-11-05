@@ -13,8 +13,6 @@
   padding: 0 30px;
 }
  
- 
-
 .logo{
  left:50px;
   font-weight: bolder;
@@ -71,9 +69,6 @@ color:orangered;
   width: 100%;
   object-fit: cover;
 } */
-
-
-
 
 /* * {
   margin: 0;
@@ -147,7 +142,7 @@ body {
 
 .book-btn {
   display: block;
-  margin: 0  20px ;  /* 👈 isse button center me aa jayega */
+  margin: 0  20px ;   
   background-color: #7a7a3b;
   color: #fff;
   text-decoration: none;
