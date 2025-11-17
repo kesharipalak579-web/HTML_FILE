@@ -33,6 +33,248 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: italic;
 }
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+} */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin:20px;
+}
+
+.region {
+  text-align: center;
+  /* width: 180px; */
+}
+
+.region img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.region h3 {
+  color: #0078D7; /* blue heading like Incredible India site */
+  font-size: 23px;
+  /* text-align:center; */
+  margin-bottom: 15px;
+}
+
+.region ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  /* line-height: 1.6;*/
+}  
+
+.region ul li {
+  font-size: 18px;
+  color: #000;
+  /* margin:10px; */
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .container {
+    justify-content: center;
+  }
+  .region {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .region {
+    width: 100%;
+  }
+}
+/* /*   
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Taj_Mahal_in_March_2004.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+.section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #0078D7;
+  border-bottom: 2px solid #0078D7;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.images img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+} */
+
+/* .hero {
+  background: url()
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.overlay {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.overlay h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 20px;
+  font-style: italic;
+}*/
+
+.about-section {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+  padding: 40px;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.about-images {
+  flex: 1;
+  position: relative;
+}
+
+.about-images .main-img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.about-images .small-img {
+  width: 45%;
+  position: absolute;
+  bottom: -30px;
+  right: -20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-images {
+    margin-top: 30px;
+  }
+
+  .about-images .small-img {
+    position: static;
+    width: 70%;
+    margin-top: 15px;
+  }
+}
+
+/* About Content */
+.about-content {
+  padding: 60px 15%;
+  background-color: #f8f8f8;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  color: #0078D7;
+  margin-top: 30px;
+  border-bottom: 2px solid #0078D7;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-content p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}  
 .img{
   display:flex ;
   justify-content: center;
